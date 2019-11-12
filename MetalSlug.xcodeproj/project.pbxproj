@@ -22,6 +22,7 @@
 		93C0CFC9235A078800423527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C0CFC7235A078800423527 /* Main.storyboard */; };
 		93C0CFCB235A078B00423527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C0CFCA235A078B00423527 /* Assets.xcassets */; };
 		93C0CFCE235A078B00423527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C0CFCC235A078B00423527 /* LaunchScreen.storyboard */; };
+		93C6AAF7237A2DE600048A84 /* reproductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C6AAF6237A2DE600048A84 /* reproductor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		93C0CFCA235A078B00423527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93C0CFCD235A078B00423527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93C0CFCF235A078B00423527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C6AAF6237A2DE600048A84 /* reproductor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reproductor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				93C0CFC0235A078800423527 /* MetalSlug */,
+				93C6AAEE237A2B6300048A84 /* Sounds */,
 				93C0CFBF235A078800423527 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,9 +79,18 @@
 			children = (
 				93C0CFC1235A078800423527 /* AppDelegate.swift */,
 				93C0CFC3235A078800423527 /* SceneDelegate.swift */,
-				93C0CFC5235A078800423527 /* ViewController.swift */,
-				93C0CFC7235A078800423527 /* Main.storyboard */,
+				93C6AAEF237A2BE600048A84 /* Modelo */,
+				93C6AAF0237A2BF300048A84 /* Vista */,
+				93C6AAF1237A2BFC00048A84 /* Controlador */,
 				93C0CFCA235A078B00423527 /* Assets.xcassets */,
+				93C0CFCF235A078B00423527 /* Info.plist */,
+			);
+			path = MetalSlug;
+			sourceTree = "<group>";
+		};
+		93C6AAEE237A2B6300048A84 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
 				93538A3B235E665600CC40E7 /* H.mp3 */,
 				93538A3D235E66A800CC40E7 /* R.mp3 */,
 				93538A22235E625C00CC40E7 /* F.mp3 */,
@@ -88,10 +100,57 @@
 				93538A47235E67F300CC40E7 /* I.mp3 */,
 				93538A49235E682B00CC40E7 /* D.mp3 */,
 				93538A45235E67B300CC40E7 /* G.mp3 */,
-				93C0CFCC235A078B00423527 /* LaunchScreen.storyboard */,
-				93C0CFCF235A078B00423527 /* Info.plist */,
 			);
-			path = MetalSlug;
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		93C6AAEF237A2BE600048A84 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				93C6AAF6237A2DE600048A84 /* reproductor.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		93C6AAF0237A2BF300048A84 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				93C6AAF2237A2CB600048A84 /* Launch */,
+				93C6AAF3237A2CC000048A84 /* Main */,
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		93C6AAF1237A2BFC00048A84 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				93C6AAF8237A2F8100048A84 /* Main */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+		93C6AAF2237A2CB600048A84 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				93C0CFCC235A078B00423527 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		93C6AAF3237A2CC000048A84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93C0CFC7235A078800423527 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		93C6AAF8237A2F8100048A84 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				93C0CFC5235A078800423527 /* ViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C0CFC6235A078800423527 /* ViewController.swift in Sources */,
+				93C6AAF7237A2DE600048A84 /* reproductor.swift in Sources */,
 				93C0CFC2235A078800423527 /* AppDelegate.swift in Sources */,
 				93C0CFC4235A078800423527 /* SceneDelegate.swift in Sources */,
 			);
