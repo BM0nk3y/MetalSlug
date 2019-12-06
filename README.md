@@ -10,6 +10,7 @@
 Reproductor de sonidos inspiado en el video juego Metal Slug
 
 ![Screenshot](./Screens/splashscreen.png)
+
 ![Screenshot](./Screens/mainscreen.png)
 
 ## Requisitos
