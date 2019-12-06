@@ -14,7 +14,7 @@ Reproductor de sonidos inspiado en el video juego Metal Slug
 
 ## Requisitos
 * [Xcode](https://developer.apple.com/xcode/) 11.2.1
-* Swift 5.1
+* Swift 5.2
 * iOS 9.x o superior (Compatible solo con iPhone)
 
 ## Encuéntrame en:
