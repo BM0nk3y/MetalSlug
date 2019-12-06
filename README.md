@@ -2,7 +2,7 @@
 
 [![Xcode](https://img.shields.io/badge/Xcode-11.2.1-blue)]()
 [![Xcode](https://img.shields.io/badge/Swift-5.2-orange)]()
-[![Xcode](https://img.shields.io/badge/iOs-9.x%2B-lightgrey)]()
+[![Xcode](https://img.shields.io/badge/iOS-9.x%2B-lightgrey)]()
 
 **`¡HOLA MUNDO! 👋🏼`**
 
