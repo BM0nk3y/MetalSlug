@@ -9,8 +9,7 @@
 ## Descripción
 Reproductor de sonidos inspiado en el video juego Metal Slug
 
-![Screenshot](./Screens/splashscreen.png)
-![Screenshot](./Screens/mainscreen.png)
+![Screenshot](./Screens/splashscreen.png) ![Screenshot](./Screens/mainscreen.png)
 
 ## Requisitos
 * [Xcode](https://developer.apple.com/xcode/) 11.2.1
