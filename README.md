@@ -19,8 +19,8 @@ Reproductor de sonidos inspiado en el video juego Metal Slug
 * iOS 9.x o superior (Compatible solo con iPhone)
 
 ## Encuéntrame en:
-[![Facebook](https://img.shields.io/badge/Facebook-devm0nk3y-blue.svg?style=for-the-badge)](https://facebook.com/devm0nk3y)
-[![Twitter](https://img.shields.io/badge/twitter-@devm0nk3y-blue.svg?style=for-the-badge)](https://twitter.com/devm0nk3y)
+<!--[![Facebook](https://img.shields.io/badge/Facebook-devm0nk3y-blue.svg?style=for-the-badge)](https://facebook.com/devm0nk3y)
+[![Twitter](https://img.shields.io/badge/twitter-@devm0nk3y-blue.svg?style=for-the-badge)](https://twitter.com/devm0nk3y)-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AbelLázaro-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abellazaro/)
 
 ### Autor
